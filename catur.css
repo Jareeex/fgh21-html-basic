@@ -1,0 +1,30 @@
+/* Style untuk papan catur */
+.chessboard {
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+/* Pengaturan warna latar belakang kotak secara bergantian */
+.row:nth-child(odd) .cell:nth-child(odd),
+.row:nth-child(even) .cell:nth-child(even) {
+    background-color: white; /* Warna untuk kotak ganjil pada baris ganjil dan kotak genap pada baris genap */
+}
+
+.row:nth-child(odd) .cell:nth-child(even),
+.row:nth-child(even) .cell:nth-child(odd) {
+    background-color: black; /* Warna untuk kotak genap pada baris ganjil dan kotak ganjil pada baris genap */
+}
