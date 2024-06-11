@@ -1,0 +1,81 @@
+* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+.content {
+    max-width: 100px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    background-color: aquamarine; 
+    padding: 20px; 
+    margin: 0 auto; 
+    margin-top: 50px;
+    
+}
+.table-container {
+    max-width: 800px; 
+    padding: 20px;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    height: 20px; 
+    
+}
+th {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding:5px;
+}
+
+
+
+td {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border: none;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+button{
+    border: none;
+    cursor: pointer;
+    color: blue;
+}
+.active-btn {
+    background-color: #28a745; 
+    color: #fff; 
+    border-radius: 20px;
+}
+
+.inactive-btn {
+    background-color: #dc3545; 
+    color: #fff; 
+    border-radius: 20px;
+}
